@@ -1,0 +1,612 @@
+{
+  "business": {
+    "name": "Seattle Upgrade Construction LLC",
+    "phone": "+12066364901",
+    "category": "handyman service",
+    "city": "Seattle",
+    "state": "WA"
+  },
+  "design": {
+    "preset": {
+      "id": "roofing-red-charge",
+      "categoryGroup": "roofing",
+      "name": "Red Charge",
+      "recipeFile": "roofing/red-charge.astro",
+      "colors": {
+        "primary": "#1F3A56",
+        "primaryDark": "#152B42",
+        "primaryLight": "#D0DCE8",
+        "secondary": "#2B4C6F",
+        "accent": "#DC143C",
+        "background": "#FFFFFF",
+        "backgroundAlt": "#1F3A56",
+        "surface": "#F5F7FA",
+        "text": "#111827",
+        "textLight": "#6B7280",
+        "textOnDark": "#FFFFFF",
+        "border": "#E5E7EB"
+      },
+      "typography": {
+        "headingFont": "DM Sans",
+        "headingWeight": "700",
+        "bodyFont": "Inter",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.2"
+      },
+      "shape": {
+        "borderRadius": "8px",
+        "buttonRadius": "8px",
+        "cardRadius": "12px",
+        "shadowStyle": "soft"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "surface",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "roofing/red-charge"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Seattle's Trusted Handyman Experts",
+      "heroSubline": "From Queen Anne Victorians to modern Ballard lofts, we tackle any repair. Get reliable service and lasting results.",
+      "aboutTitle": "Built on Trust, Driven by Quality",
+      "aboutText": [
+        "Seattle Upgrade Construction LLC started with a simple goal: to provide honest, reliable handyman services to our neighbors. We're not just contractors; we're part of the Seattle community.",
+        "We approach every project, big or small, with meticulous attention to detail and a commitment to exceeding expectations. Our reputation is built on quality workmanship and transparent communication.",
+        "We're proud to support local organizations and contribute to the vitality of Seattle. When you choose us, you're choosing a company that cares about our city."
+      ],
+      "valueProps": [
+        {
+          "title": "Experienced Professionals",
+          "description": "Our team has seen it all, from historic home renovations to modern condo repairs."
+        },
+        {
+          "title": "Transparent Pricing",
+          "description": "No hidden fees or surprises. We provide clear, upfront estimates."
+        },
+        {
+          "title": "Quality Guarantee",
+          "description": "We stand behind our work. If you're not satisfied, we'll make it right."
+        },
+        {
+          "title": "Licensed & Insured",
+          "description": "Protecting your home and family is our top priority with proper licensing and insurance."
+        }
+      ],
+      "ctaHeadline": "Ready to Upgrade Your Home?",
+      "ctaSubline": "Contact us today for a free consultation and experience the Seattle Upgrade Construction difference."
+    },
+    "services": [
+      {
+        "slug": "drywall-repair",
+        "name": "Drywall Repair & Installation",
+        "shortDescription": "Seamless drywall repair and expert installation services for Seattle homes.",
+        "description": "Seattle's damp climate can wreak havoc on drywall, leading to water damage, mold growth, and unsightly cracks. We specialize in identifying and repairing drywall issues, whether from a leaky roof in Ballard or wear and tear in a Capitol Hill condo. Our experienced technicians handle everything from small patch jobs to complete drywall installations, ensuring a smooth, flawless finish that blends seamlessly with your existing walls. We use moisture-resistant drywall in areas prone to dampness, preventing future problems. We also offer texture matching to maintain the aesthetic integrity of your home. From patching nail holes to installing new walls, we've got you covered.",
+        "process": [
+          "Step 1: Thorough assessment of the damage and moisture sources.",
+          "Step 2: Precise cutting and removal of damaged drywall.",
+          "Step 3: Expert patching, taping, and mudding for a seamless finish.",
+          "Step 4: Priming and painting to match your existing color scheme."
+        ],
+        "benefits": [
+          "Eliminate unsightly cracks and holes",
+          "Prevent mold growth and water damage",
+          "Restore the structural integrity of your walls",
+          "Increase your home's value"
+        ],
+        "faq": [
+          {
+            "question": "How long does drywall repair take?",
+            "answer": "Most small repairs can be completed in a single day. Larger projects may take a few days, depending on the extent of the damage."
+          },
+          {
+            "question": "Do you offer painting services?",
+            "answer": "Yes, we provide complete painting services to match your existing color scheme and ensure a seamless finish."
+          },
+          {
+            "question": "How can I prevent drywall damage in the future?",
+            "answer": "Addressing leaks promptly, ensuring proper ventilation, and using moisture-resistant paint can help prevent future drywall damage."
+          }
+        ]
+      },
+      {
+        "slug": "roof-repair",
+        "name": "Roof Repair and Maintenance",
+        "shortDescription": "Protecting Seattle homes from the elements with expert roof repair and maintenance.",
+        "description": "Seattle's notorious rainfall can take a toll on roofs, leading to leaks, moss growth, and structural damage. We provide comprehensive roof repair and maintenance services to keep your home dry and secure. From replacing missing shingles on a Queen Anne Victorian to repairing flashing around a Fremont skylight, our experienced team handles all types of roofing issues. We specialize in identifying and addressing the root causes of leaks, preventing further damage. We also offer moss removal and preventative treatments to extend the life of your roof. We work with all roofing materials common in Seattle, including composition shingles, cedar shakes, and metal roofing. Regular maintenance is key to preventing costly repairs down the road.",
+        "process": [
+          "Step 1: Detailed roof inspection to identify damage and potential issues.",
+          "Step 2: Expert repair of leaks, damaged shingles, and flashing.",
+          "Step 3: Moss removal and preventative treatments.",
+          "Step 4: Gutter cleaning and maintenance."
+        ],
+        "benefits": [
+          "Prevent leaks and water damage",
+          "Extend the life of your roof",
+          "Improve your home's curb appeal",
+          "Protect your investment"
+        ],
+        "faq": [
+          {
+            "question": "How often should I have my roof inspected?",
+            "answer": "We recommend having your roof inspected at least once a year, especially before and after the rainy season."
+          },
+          {
+            "question": "What are the signs of a roof leak?",
+            "answer": "Signs of a roof leak include water stains on ceilings or walls, mold growth, and musty odors."
+          },
+          {
+            "question": "Do you offer emergency roof repair services?",
+            "answer": "Yes, we provide emergency roof repair services to address urgent leaks and damage."
+          }
+        ]
+      },
+      {
+        "slug": "gutter-cleaning",
+        "name": "Gutter Cleaning and Repair",
+        "shortDescription": "Keep your Seattle home protected with professional gutter cleaning and repair services.",
+        "description": "Clogged gutters can cause significant water damage to your home's foundation, siding, and roof. We offer professional gutter cleaning and repair services to ensure proper drainage and protect your investment. Our experienced technicians remove leaves, debris, and moss from your gutters, preventing overflows and water damage. We also inspect your gutters for damage, such as leaks, cracks, and sagging, and provide expert repairs to restore their functionality. We work on all types of gutters, including aluminum, copper, and vinyl. Regular gutter cleaning is essential for preventing water damage and maintaining the structural integrity of your home. We serve all neighborhoods in Seattle, from West Seattle to Ballard.",
+        "process": [
+          "Step 1: Thorough removal of leaves, debris, and moss from gutters and downspouts.",
+          "Step 2: Inspection of gutters for damage, leaks, and sagging.",
+          "Step 3: Repair of damaged gutters and downspouts.",
+          "Step 4: Flushing of gutters to ensure proper drainage."
+        ],
+        "benefits": [
+          "Prevent water damage to your home's foundation and siding",
+          "Protect your roof from leaks",
+          "Prevent mosquito breeding",
+          "Extend the life of your gutters"
+        ],
+        "faq": [
+          {
+            "question": "How often should I have my gutters cleaned?",
+            "answer": "We recommend having your gutters cleaned at least twice a year, especially in the fall and spring."
+          },
+          {
+            "question": "What are the signs of clogged gutters?",
+            "answer": "Signs of clogged gutters include overflowing water, sagging gutters, and water damage to your home's exterior."
+          },
+          {
+            "question": "Do you offer gutter guard installation?",
+            "answer": "Yes, we offer gutter guard installation to prevent leaves and debris from clogging your gutters."
+          }
+        ]
+      },
+      {
+        "slug": "deck-repair",
+        "name": "Deck Repair and Maintenance",
+        "shortDescription": "Restore and maintain your Seattle deck with our expert repair and maintenance services.",
+        "description": "Seattle's damp climate can cause wood rot, mildew, and structural damage to decks. We offer comprehensive deck repair and maintenance services to keep your outdoor living space safe and beautiful. Our experienced team handles everything from replacing damaged boards to repairing railings and stairs. We also offer power washing, staining, and sealing to protect your deck from the elements. We work with all types of decking materials, including cedar, redwood, and composite decking. Regular maintenance is key to preventing costly repairs and extending the life of your deck. Whether you have a small balcony in Belltown or a sprawling deck in Magnolia, we can help you keep it in top condition.",
+        "process": [
+          "Step 1: Thorough inspection of the deck for damage, wood rot, and mildew.",
+          "Step 2: Replacement of damaged boards, railings, and stairs.",
+          "Step 3: Power washing to remove dirt and mildew.",
+          "Step 4: Staining and sealing to protect the deck from the elements."
+        ],
+        "benefits": [
+          "Restore the safety and beauty of your deck",
+          "Prevent wood rot and mildew",
+          "Extend the life of your deck",
+          "Increase your home's value"
+        ],
+        "faq": [
+          {
+            "question": "How often should I stain or seal my deck?",
+            "answer": "We recommend staining or sealing your deck every 1-2 years, depending on the weather exposure."
+          },
+          {
+            "question": "What are the signs of wood rot?",
+            "answer": "Signs of wood rot include soft, spongy wood, discoloration, and a musty odor."
+          },
+          {
+            "question": "Do you offer deck building services?",
+            "answer": "Yes, we also offer deck building services for new construction and replacements."
+          }
+        ]
+      },
+      {
+        "slug": "fence-repair",
+        "name": "Fence Repair and Installation",
+        "shortDescription": "Secure your Seattle property with our reliable fence repair and installation services.",
+        "description": "A damaged or dilapidated fence can compromise your property's security and curb appeal. We offer comprehensive fence repair and installation services to keep your property safe and secure. Our experienced team handles everything from replacing broken posts to repairing gates and replacing entire sections of fencing. We work with all types of fencing materials, including wood, chain link, and vinyl. Whether you need a minor repair to your picket fence in Wallingford or a complete fence installation in West Seattle, we can help. We also offer custom fence designs to enhance your property's aesthetic appeal. A well-maintained fence adds value and security to your home.",
+        "process": [
+          "Step 1: Assessment of the fence for damage and structural integrity.",
+          "Step 2: Repair of broken posts, gates, and sections of fencing.",
+          "Step 3: Installation of new fences to meet your specific needs.",
+          "Step 4: Painting or staining to match your desired aesthetic."
+        ],
+        "benefits": [
+          "Enhance your property's security",
+          "Improve your curb appeal",
+          "Define your property boundaries",
+          "Increase your privacy"
+        ],
+        "faq": [
+          {
+            "question": "How long does fence installation take?",
+            "answer": "The duration of fence installation depends on the size and complexity of the project. We'll provide you with an estimated timeline before starting work."
+          },
+          {
+            "question": "What are the different types of fencing materials?",
+            "answer": "We offer a variety of fencing materials, including wood, chain link, and vinyl, each with its own unique benefits and aesthetic appeal."
+          },
+          {
+            "question": "Do you offer fence staining and painting services?",
+            "answer": "Yes, we offer fence staining and painting services to protect your fence from the elements and enhance its appearance."
+          }
+        ]
+      },
+      {
+        "slug": "painting",
+        "name": "Interior and Exterior Painting",
+        "shortDescription": "Transform your Seattle home with our professional interior and exterior painting services.",
+        "description": "A fresh coat of paint can revitalize your home's appearance and protect it from the elements. We offer professional interior and exterior painting services to transform your living space. Our experienced painters use high-quality paints and meticulous techniques to ensure a flawless finish. We handle everything from surface preparation to final coat application. Whether you want to update your living room in Fremont or protect your siding from the Seattle rain, we can help. We also offer color consultation services to help you choose the perfect colors for your home. Proper preparation is key to a long-lasting paint job.",
+        "process": [
+          "Step 1: Thorough surface preparation, including cleaning, scraping, and priming.",
+          "Step 2: Application of high-quality paints using professional techniques.",
+          "Step 3: Detailed inspection to ensure a flawless finish.",
+          "Step 4: Clean up and disposal of all materials."
+        ],
+        "benefits": [
+          "Enhance your home's curb appeal",
+          "Protect your home from the elements",
+          "Increase your home's value",
+          "Create a more inviting living space"
+        ],
+        "faq": [
+          {
+            "question": "How long does interior painting take?",
+            "answer": "The duration of interior painting depends on the size and complexity of the project. We'll provide you with an estimated timeline before starting work."
+          },
+          {
+            "question": "What are the different types of paint finishes?",
+            "answer": "We offer a variety of paint finishes, including matte, satin, and gloss, each with its own unique benefits and aesthetic appeal."
+          },
+          {
+            "question": "Do you offer color consultation services?",
+            "answer": "Yes, we offer color consultation services to help you choose the perfect colors for your home."
+          }
+        ]
+      },
+      {
+        "slug": "plumbing-repair",
+        "name": "Minor Plumbing Repairs",
+        "shortDescription": "Reliable plumbing repair services for leaky faucets, clogged drains, and more in Seattle.",
+        "description": "From dripping faucets in Ravenna to clogged drains in Queen Anne, we handle a wide range of minor plumbing repairs. Our experienced technicians are equipped to quickly diagnose and fix common plumbing issues, preventing further damage and saving you money. We repair leaky faucets, unclog drains, replace showerheads, and fix running toilets. We understand the importance of prompt and reliable service, especially when dealing with plumbing emergencies. We use quality parts and materials to ensure lasting repairs. Don't let a small plumbing problem turn into a major headache. Contact us for fast and affordable plumbing repair services throughout Seattle.",
+        "process": [
+          "Step 1: Diagnose the plumbing issue and determine the best course of action.",
+          "Step 2: Repair or replace damaged parts using quality materials.",
+          "Step 3: Test the repair to ensure proper functionality.",
+          "Step 4: Clean up the work area and dispose of any waste."
+        ],
+        "benefits": [
+          "Stop leaks and prevent water damage",
+          "Restore proper plumbing function",
+          "Save water and money",
+          "Avoid costly repairs down the road"
+        ],
+        "faq": [
+          {
+            "question": "How do I know if I have a plumbing leak?",
+            "answer": "Signs of a plumbing leak include dripping faucets, running toilets, water stains on ceilings or walls, and a sudden increase in your water bill."
+          },
+          {
+            "question": "How much does plumbing repair cost?",
+            "answer": "The cost of plumbing repair depends on the nature and complexity of the problem. We offer free estimates before starting any work."
+          },
+          {
+            "question": "Do you offer emergency plumbing services?",
+            "answer": "Yes, we offer emergency plumbing services for urgent issues such as burst pipes and severe leaks."
+          }
+        ]
+      }
+    ],
+    "serviceAreas": [
+      {
+        "city": "Bellevue",
+        "slug": "bellevue-wa",
+        "state": "WA",
+        "content": "Seattle Upgrade Construction LLC is proud to offer our handyman services to the residents of Bellevue, Washington. Known for its upscale homes, many built between the 1980s and 2000s, Bellevue presents unique maintenance and upgrade opportunities. From kitchen and bathroom remodels to deck repairs and general home improvements, we are dedicated to providing top-quality craftsmanship and reliable service to homeowners in Bellevue.\n\nBellevue's mild, wet winters require special attention to weatherproofing and drainage systems. We offer services specifically tailored to address these challenges, including gutter cleaning, roof repairs, and siding maintenance. Whether you're looking to enhance your home's curb appeal or ensure its long-term structural integrity, Seattle Upgrade Construction LLC is your trusted partner in Bellevue.",
+        "localContext": "Bellevue boasts a blend of modern architecture and established neighborhoods, requiring a handyman service that understands both contemporary design and the maintenance needs of older homes.",
+        "nearbyAreas": [
+          "Redmond",
+          "Kirkland",
+          "Seattle"
+        ]
+      },
+      {
+        "city": "Redmond",
+        "slug": "redmond-wa",
+        "state": "WA",
+        "content": "Seattle Upgrade Construction LLC extends its professional handyman services to Redmond, Washington, the home of Microsoft's headquarters and a vibrant community. Redmond's housing market includes a mix of single-family homes and modern developments, and we are equipped to handle a wide range of projects, from small repairs to complete renovations.\n\nWe understand the busy lifestyles of Redmond residents and strive to provide efficient and reliable service. Whether you need help with drywall repairs, painting, or installing new fixtures, our team is committed to delivering exceptional results. We also offer services to address the specific needs of Redmond homes, considering the area's climate and common maintenance issues.",
+        "localContext": "Redmond's proximity to technology companies means many residents value efficiency and modern solutions in their home maintenance and improvement projects.",
+        "nearbyAreas": [
+          "Bellevue",
+          "Kirkland",
+          "Sammamish"
+        ]
+      },
+      {
+        "city": "Kirkland",
+        "slug": "kirkland-wa",
+        "state": "WA",
+        "content": "Seattle Upgrade Construction LLC is pleased to serve the residents of Kirkland, Washington. Known for its beautiful waterfront homes along Lake Washington, Kirkland presents unique opportunities for home improvement and maintenance. We offer a comprehensive range of handyman services tailored to the specific needs of Kirkland's diverse housing stock, from older homes to modern lakefront properties.\n\nOur services include deck and dock repairs, window replacements, and interior renovations. We understand the importance of preserving the beauty and value of Kirkland's homes, and we are committed to providing top-quality craftsmanship and reliable service. With Kirkland experiencing mild, wet winters, we also specialize in weatherproofing and moisture control solutions.",
+        "localContext": "Kirkland's lakefront location and upscale homes often require specialized handyman services focused on waterfront maintenance and high-end finishes.",
+        "nearbyAreas": [
+          "Redmond",
+          "Bellevue",
+          "Kenmore"
+        ]
+      },
+      {
+        "city": "Tacoma",
+        "slug": "tacoma-wa",
+        "state": "WA",
+        "content": "Seattle Upgrade Construction LLC is proud to offer our handyman services to Tacoma, Washington. With its rich history and diverse architecture, including many beautiful Craftsman homes in the Stadium District built in the early 1900s, Tacoma presents unique challenges and opportunities for home maintenance and restoration.\n\nWe specialize in preserving the character of Tacoma's historic homes while ensuring they meet modern standards of comfort and efficiency. Our services include siding repair, window restoration, and interior remodeling. We understand the importance of maintaining the architectural integrity of these homes, and we are committed to providing top-quality craftsmanship and reliable service to Tacoma residents. We also handle modern updates such as electrical and plumbing to keep these homes functioning for generations.",
+        "localContext": "Tacoma's older housing stock, particularly in areas like the Stadium District, requires a handyman service experienced in historic preservation and renovation techniques.",
+        "nearbyAreas": [
+          "Seattle",
+          "Federal Way",
+          "Puyallup"
+        ]
+      },
+      {
+        "city": "Bothell",
+        "slug": "bothell-wa",
+        "state": "WA",
+        "content": "Seattle Upgrade Construction LLC is excited to provide handyman services in Bothell, Washington. Characterized by its 1980s and 1990s suburban developments, Bothell offers a variety of homes that benefit from our expertise in maintenance, repair, and upgrades. We cater to the needs of Bothell residents with reliable and efficient service.\n\nOur services include everything from drywall patching and painting to kitchen and bathroom updates. We understand the common maintenance needs of homes built during this era, such as plumbing repairs and electrical upgrades. Seattle Upgrade Construction LLC is committed to providing top-quality work and excellent customer service to the Bothell community. We also offer weatherproofing services to protect your home from the Pacific Northwest climate.",
+        "localContext": "Bothell's primarily suburban landscape means many homeowners are looking for reliable handyman services to maintain and upgrade their existing homes.",
+        "nearbyAreas": [
+          "Woodinville",
+          "Kenmore",
+          "Mill Creek"
+        ]
+      },
+      {
+        "city": "Seattle",
+        "slug": "seattle-wa",
+        "state": "WA",
+        "content": "Seattle Upgrade Construction LLC proudly serves the city of Seattle, Washington, offering a wide range of handyman services to meet the diverse needs of its residents. From historic homes in Capitol Hill to modern apartments in Belltown, Seattle presents a unique blend of architectural styles and maintenance challenges.\n\nWe specialize in providing efficient and reliable solutions for all your home repair and improvement needs. Our services include everything from minor repairs to full-scale renovations. Seattle's climate demands attention to weatherproofing and moisture control, and we offer services specifically tailored to address these issues, including gutter cleaning, roof repairs, and siding maintenance.",
+        "localContext": "Seattle's diverse neighborhoods and housing styles require a handyman service with broad expertise and a commitment to quality craftsmanship.",
+        "nearbyAreas": [
+          "Bellevue",
+          "Shoreline",
+          "Renton"
+        ]
+      },
+      {
+        "city": "Shoreline",
+        "slug": "shoreline-wa",
+        "state": "WA",
+        "content": "Seattle Upgrade Construction LLC is delighted to offer handyman services to Shoreline, Washington. This city, known for its residential neighborhoods and proximity to Puget Sound, presents a variety of home maintenance needs. We are committed to providing reliable and efficient service to Shoreline residents.\n\nOur services include everything from deck repairs and fence installations to interior painting and plumbing fixes. We understand the importance of maintaining homes in Shoreline, especially given the coastal climate. Seattle Upgrade Construction LLC focuses on quality workmanship and customer satisfaction, ensuring your home is well-maintained and comfortable. We help with weather-proofing to protect against moisture in the air.",
+        "localContext": "Shoreline's residential focus means many homeowners are looking for dependable handyman services to maintain and improve their homes.",
+        "nearbyAreas": [
+          "Seattle",
+          "Edmonds",
+          "Lake Forest Park"
+        ]
+      },
+      {
+        "city": "Renton",
+        "slug": "renton-wa",
+        "state": "WA",
+        "content": "Seattle Upgrade Construction LLC is pleased to extend its handyman services to Renton, Washington. With a diverse housing stock ranging from older homes to new developments, Renton offers a variety of opportunities for home improvement and maintenance. We are dedicated to providing top-quality service to Renton residents.\n\nOur services include everything from kitchen and bathroom remodels to general home repairs. We understand the specific needs of Renton homes and are committed to delivering exceptional results. Seattle Upgrade Construction LLC prioritizes customer satisfaction and strives to exceed expectations with every project. We offer solutions for weather damage, as well.",
+        "localContext": "Renton's mix of older and newer homes requires a handyman service that can handle a wide range of repair and renovation projects.",
+        "nearbyAreas": [
+          "Seattle",
+          "Kent",
+          "Tukwila"
+        ]
+      },
+      {
+        "city": "Sammamish",
+        "slug": "sammamish-wa",
+        "state": "WA",
+        "content": "Seattle Upgrade Construction LLC proudly serves Sammamish, Washington, offering a full suite of handyman services to this growing community. Sammamish features many newer homes and family-friendly neighborhoods, creating demand for reliable maintenance and upgrade solutions.\n\nWe specialize in services such as deck construction, fence repair, interior painting, and general home maintenance. Understanding the needs of busy families, we strive to provide prompt and efficient service with minimal disruption. We also address common issues related to the local climate, such as gutter cleaning and siding repair, ensuring your home remains in top condition.",
+        "localContext": "Sammamish's primarily residential landscape and newer housing stock call for a handyman service focused on modern amenities and family-oriented solutions.",
+        "nearbyAreas": [
+          "Redmond",
+          "Issaquah",
+          "North Bend"
+        ]
+      },
+      {
+        "city": "Issaquah",
+        "slug": "issaquah-wa",
+        "state": "WA",
+        "content": "Seattle Upgrade Construction LLC is excited to offer handyman services in Issaquah, Washington. Nestled near the Cascade Mountains, Issaquah boasts a mix of residential areas and natural beauty, creating unique home maintenance needs. We are dedicated to serving Issaquah residents with reliable and efficient service.\n\nOur services include everything from deck and fence repairs to interior painting and plumbing fixes. We understand the importance of maintaining homes in Issaquah, especially given the proximity to the mountains and the resulting weather conditions. Seattle Upgrade Construction LLC focuses on quality workmanship and customer satisfaction, ensuring that your home is both well-maintained and comfortable. We also provide weatherproofing services to protect against moisture and temperature changes.",
+        "localContext": "Issaquah's mountain proximity and mix of residential areas require a handyman service skilled in addressing weather-related issues and providing comprehensive home maintenance.",
+        "nearbyAreas": [
+          "Sammamish",
+          "North Bend",
+          "Renton"
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Alice K.",
+        "rating": 5,
+        "service": "Drywall Repair",
+        "text": "Seattle Upgrade Construction did an amazing job repairing the water damage in my bathroom. The drywall looks brand new, and they matched the texture perfectly. Very professional and reasonably priced!",
+        "date": "2025-03-15"
+      },
+      {
+        "name": "Bob M.",
+        "rating": 4,
+        "service": "Roof Repair",
+        "text": "I had a leaky roof after the big storm last month. Seattle Upgrade Construction came out quickly and fixed the problem. They were honest and didn't try to upsell me on unnecessary repairs. Would recommend.",
+        "date": "2024-11-20"
+      },
+      {
+        "name": "Carol L.",
+        "rating": 5,
+        "service": "Gutter Cleaning",
+        "text": "My gutters were completely clogged with leaves and moss. Seattle Upgrade Construction cleaned them out thoroughly and even repaired a section that was pulling away from the house. Great service!",
+        "date": "2024-09-08"
+      },
+      {
+        "name": "David S.",
+        "rating": 5,
+        "service": "Deck Repair",
+        "text": "Our deck was in rough shape with some rotting boards and loose railings. Seattle Upgrade Construction replaced the damaged sections and stained the whole deck. It looks fantastic now and feels much safer.",
+        "date": "2025-01-22"
+      },
+      {
+        "name": "Emily R.",
+        "rating": 4,
+        "service": "Fence Repair",
+        "text": "The windstorm knocked down a section of my fence. Seattle Upgrade Construction came out and repaired it quickly and efficiently. The price was fair, and the quality of work was excellent.",
+        "date": "2024-06-10"
+      },
+      {
+        "name": "Frank P.",
+        "rating": 5,
+        "service": "Interior Painting",
+        "text": "Seattle Upgrade Construction painted my living room and hallway. They did a fantastic job prepping the walls and the paint job is flawless. Very professional and detail oriented.",
+        "date": "2024-04-03"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Seattle Handyman | Upgrade Construction",
+        "description": "Reliable handyman services in Seattle, WA. Expert repairs, maintenance, and home improvements. Free estimates!"
+      },
+      "about": {
+        "title": "About Us | Seattle Upgrade Construction",
+        "description": "Learn about Seattle Upgrade Construction's commitment to quality and community. Serving Seattle, Bellevue, Redmond, and more."
+      },
+      "services": {
+        "title": "Seattle Handyman Services | Upgrade Construction",
+        "description": "Comprehensive handyman services in Seattle. Drywall, roofing, gutters, decks, fences, painting, and more. Call for a free quote!"
+      },
+      "contact": {
+        "title": "Contact Us | Seattle Upgrade Construction",
+        "description": "Get in touch with Seattle Upgrade Construction for reliable handyman services. Serving Seattle, Bellevue, Redmond, and surrounding areas."
+      },
+      "reviews": {
+        "title": "Customer Reviews | Seattle Upgrade Construction",
+        "description": "Read what our satisfied customers are saying about Seattle Upgrade Construction's handyman services. Quality work, fair prices, and reliable service."
+      },
+      "service-areas": {
+        "title": "Service Areas | Seattle Upgrade Construction",
+        "description": "Seattle Upgrade Construction provides handyman services in Seattle, Bellevue, Redmond, Kirkland, Tacoma, and Bothell. Contact us today!"
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    }
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "drywall-repair": "/images/service-drywall-repair.webp",
+      "roof-repair": "/images/service-roof-repair.webp",
+      "gutter-cleaning": "/images/service-gutter-cleaning.webp",
+      "deck-repair": "/images/service-deck-repair.webp",
+      "fence-repair": "/images/service-fence-repair.webp",
+      "painting": "/images/service-painting.webp",
+      "plumbing-repair": "/images/service-plumbing-repair.webp"
+    },
+    "servicesResponsive": {
+      "drywall-repair": {
+        "src": "/images/service-drywall-repair.webp",
+        "srcset": "/images/service-drywall-repair-400w.webp 400w, /images/service-drywall-repair-800w.webp 800w, /images/service-drywall-repair-1200w.webp 1200w, /images/service-drywall-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "roof-repair": {
+        "src": "/images/service-roof-repair.webp",
+        "srcset": "/images/service-roof-repair-400w.webp 400w, /images/service-roof-repair-800w.webp 800w, /images/service-roof-repair-1200w.webp 1200w, /images/service-roof-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "gutter-cleaning": {
+        "src": "/images/service-gutter-cleaning.webp",
+        "srcset": "/images/service-gutter-cleaning-400w.webp 400w, /images/service-gutter-cleaning-800w.webp 800w, /images/service-gutter-cleaning-1200w.webp 1200w, /images/service-gutter-cleaning.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "deck-repair": {
+        "src": "/images/service-deck-repair.webp",
+        "srcset": "/images/service-deck-repair-400w.webp 400w, /images/service-deck-repair-800w.webp 800w, /images/service-deck-repair-1200w.webp 1200w, /images/service-deck-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "fence-repair": {
+        "src": "/images/service-fence-repair.webp",
+        "srcset": "/images/service-fence-repair-400w.webp 400w, /images/service-fence-repair-800w.webp 800w, /images/service-fence-repair-1200w.webp 1200w, /images/service-fence-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "painting": {
+        "src": "/images/service-painting.webp",
+        "srcset": "/images/service-painting-400w.webp 400w, /images/service-painting-800w.webp 800w, /images/service-painting-1200w.webp 1200w, /images/service-painting.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "plumbing-repair": {
+        "src": "/images/service-plumbing-repair.webp",
+        "srcset": "/images/service-plumbing-repair-400w.webp 400w, /images/service-plumbing-repair-800w.webp 800w, /images/service-plumbing-repair-1200w.webp 1200w, /images/service-plumbing-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
